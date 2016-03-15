@@ -1,0 +1,1 @@
+This is a project that allows Windows users to fetch a random background from their specified list of albums and make it their background on their desktop. This is the initial commit of this project.
