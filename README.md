@@ -1,1 +1,3 @@
 This is a project that allows Windows users to fetch a random background from their specified list of albums and make it their background on their desktop. This is the initial commit of this project.
+
+Currently getting details on if it is allowed to make the client-id publicly viewable for the Imgur API, once that is known a better README will be in place for your viewing pleasure. Once that is done I will make the information publicly available so that others can use this set of scripts on pull.
