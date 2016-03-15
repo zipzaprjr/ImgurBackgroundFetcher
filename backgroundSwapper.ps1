@@ -41,7 +41,7 @@ namespace Wallpaper
 }
 "@
 $properties = (Get-Content properties.json) | ConvertFrom-Json
-if($properties.album.length -gt 0){}
+if($properties.album.length -gt 0){
 	$randomAlbum = Get-Random -minimum 0 -maximum $properties.album.length
 	$url = "https://api.imgur.com/3/gallery/album/$($properties.album[$randomAlbum])/images"
 	$auth = @{}
